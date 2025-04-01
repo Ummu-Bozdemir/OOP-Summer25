@@ -14,9 +14,9 @@ def say_hello():
 
 # Wrong:
 def say_hello():
-print("Hello, world!")  # Incorrect indentation
+print("Hello, world!") 
 
-# 3. Line Length (Max 79 characters)
+# 3. Line Length 
 # Correct:
 def long_function_name(
     arg1, arg2, arg3, arg4
@@ -25,7 +25,7 @@ def long_function_name(
 
 # Wrong:
 def long_function_name(arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8):
-    return arg1 + arg2 + arg3 + arg4 + arg5 + arg6 + arg7 + arg8  # Too long
+    return arg1 + arg2 + arg3 + arg4 + arg5 + arg6 + arg7 + arg8  
 
 # 4. Whitespace Usage
 # Correct:
@@ -42,7 +42,7 @@ import os
 import sys
 
 # Wrong:
-import os, sys  # Multiple imports in one line
+import os, sys 
 
 # 6. Docstrings
 # Correct:
@@ -52,5 +52,4 @@ def add(a, b):
 
 # Wrong:
 def add(a, b):
-    # This function adds two numbers
     return a + b

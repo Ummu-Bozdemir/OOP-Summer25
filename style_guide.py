@@ -47,7 +47,6 @@ import os, sys
 # 6. Docstrings
 # Correct:
 def add(a, b):
-    """Return the sum of a and b."""
     return a + b
 
 # Wrong:

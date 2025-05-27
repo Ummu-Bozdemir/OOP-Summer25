@@ -11,3 +11,8 @@ class Car:
 
     def start_the_car(self):
         self.__start_the_engine()
+if __name__ == "__main__":
+    my_car = Car("Toyota", "Corolla")
+    print("Brand:", my_car.brand)
+    my_car.display_engine_number()
+    my_car.start_the_car()
